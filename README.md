@@ -52,3 +52,12 @@ keyboard: keymap=/usr/local/share/bochs/keymaps/x11-pc-us.map
 
 bochs -q -f bochsrc.bxrc
 ```
+
+# GDB调试
+
+```
+1. c/c++(gcc/g++编译器): gcc -g 源文件 -o 可执行文件
+2. 汇编(nasm编译器):     nasm -f elf64(64位) hello.asm -o hello.o -gstabs
+	 		 ld -o hello hello.o
+```
+

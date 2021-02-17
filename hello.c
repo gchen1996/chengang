@@ -2,5 +2,7 @@
 
 void main()
 {
-	printf("hello!\n");
+
+	float c = -100;
+
 }
