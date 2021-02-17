@@ -52,6 +52,7 @@ keyboard: keymap=/usr/local/share/bochs/keymaps/x11-pc-us.map
 
 bochs -q -f bochsrc.bxrc
 ```
+- - -
 
 # GDB调试
 
@@ -60,4 +61,4 @@ bochs -q -f bochsrc.bxrc
 2. 汇编(nasm编译器):     nasm -f elf64(64位) hello.asm -o hello.o -gstabs
 	 		 ld -o hello hello.o
 ```
-
+- - -
