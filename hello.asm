@@ -1,11 +1,11 @@
 section .text
-	global _start
+	global main
 
-_start:
-	mov eax,0123H
-	mov ebx,0456H
-	add eax,ebx
-	mov ebx,0
+main:
+	mov rax,0123H
+	mov rbx,0456H
+	add rax,rbx
+	mov rbx,0
 
-	mov eax,1
+	mov rax,1
 	int 80H
