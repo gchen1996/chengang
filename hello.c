@@ -3,6 +3,6 @@
 void main()
 {
 
-	float c = -100;
+	printf("hello world!");
 
 }
