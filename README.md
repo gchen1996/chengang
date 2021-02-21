@@ -3,6 +3,6 @@
 - - -
 ```
 nasm hello.asm -f elf64 -g -F stabs
-nasm hello.asm -f elf64 -g -F stabs
+gcc hello.o -o out -g
 ```
 - - -
